@@ -135,3 +135,6 @@
 [submodule "vim/bundle/cobalt2-vim-theme"]
 	path = vim/bundle/cobalt2-vim-theme
 	url = https://github.com/GertjanReynaert/cobalt2-vim-theme.git
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
