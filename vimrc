@@ -12,7 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 "Plugin 'bling/vim-airline'
 "Plugin 'fsouza/go.vim'
 "Plugin 'gcmt/breeze.vim'
-"Plugin 'gertjanreynaert/cobalt2-vim-theme' " pull Cobalt2 theme
+Plugin 'gertjanreynaert/cobalt2-vim-theme' " pull Cobalt2 theme
 "Plugin 'gmarik/vundle'
 "Plugin 'godlygeek/tabular'
 "Plugin 'greplace.vim'
@@ -27,9 +27,6 @@ Plugin 'gmarik/Vundle.vim'
 "Plugin 'wting/rust.vim'
 
 call vundle#end()
-
-" load Cobalt2 theme
-colorscheme cobalt2
 
 "------------------
 " Syntax and indent
@@ -52,20 +49,7 @@ if &t_Co < 256
     set nocursorline " looks bad in this mode
 else
     set background=dark
-    let g:solarized_termcolors=256 " instead of 16 color with mapping in terminal
-    colorscheme solarized
-    " customized colors
-    highlight SignColumn ctermbg=234
-    highlight StatusLine cterm=bold ctermfg=245 ctermbg=235
-    highlight StatusLineNC cterm=bold ctermfg=245 ctermbg=235
-    let g:NeatStatusLine_color_normal='ctermfg=64 ctermbg=235 cterm=bold'
-    let g:NeatStatusLine_color_insert='ctermfg=136 ctermbg=235 cterm=bold'
-    let g:NeatStatusLine_color_replace='ctermfg=160 ctermbg=235 cterm=bold'
-    let g:NeatStatusLine_color_visual='ctermfg=33 ctermbg=235 cterm=bold'
-    let g:NeatStatusLine_color_position='ctermfg=245 ctermbg=235 cterm=bold'
-    let g:NeatStatusLine_color_modified='ctermfg=166 ctermbg=235 cterm=bold'
-    let g:NeatStatusLine_color_line='ctermfg=61 ctermbg=235 cterm=bold'
-    let g:NeatStatusLine_color_filetype='ctermfg=37 ctermbg=235 cterm=bold'
+    colorscheme cobalt2
 endif
 
 filetype plugin indent on " enable file type detection
