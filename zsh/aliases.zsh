@@ -88,3 +88,36 @@ function ascii() {
 
 # Mirror a website
 alias mirrorsite='wget -m -k -K -E -e robots=off'
+
+# Toggle "My Book" firewire drive
+alias mountmybook='diskutil mount "My Book"'
+alias ejectmybook='diskutil eject "My Book"'
+
+# Toggle "Nitro" USB 3.0 Time Machine drive
+alias mountnitro='diskutil mount "Nitro"'
+alias ejectnitro='diskutil eject "Nitro"'
+
+# Copy pub key to the pasteboard
+alias copypubssh='pbcopy < ~/.ssh/id_rsa.pub'
+
+# Remove all gems
+alias removeallgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
+
+# MAMP/php dir
+alias phpmamp='/Applications/MAMP/bin/php/php5.5.10/bin/php'
+
+# Composer dir
+alias composer='/usr/local/bin/composer.phar'
+
+# Find folders in SVN repository
+function svnfinddir() {
+    svn list $1 | grep -i $2
+}
+
+# Adds any file with a question mark next to it, while still excluding ignored files
+function svnadd() {
+    svn status | grep -v "^.[ \t]*\..*" | grep "^?" | awk "{print $2}" | xargs svn add
+}
+
+# Recursively delete SVN directories
+alias svnkill='find . -type d -name .svn -print0 | xargs -0 rm -rf'

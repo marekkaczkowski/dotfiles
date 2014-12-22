@@ -1,11 +1,35 @@
 set nocompatible " not vi compatible
+filetype off
 
 "--------------
-" Load pathogen
+" Load Vundle
 "--------------
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
-call pathogen#helptags()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+
+"Plugin 'airblade/vim-gitgutter'
+"Plugin 'bling/vim-airline'
+"Plugin 'fsouza/go.vim'
+"Plugin 'gcmt/breeze.vim'
+"Plugin 'gertjanreynaert/cobalt2-vim-theme' " pull Cobalt2 theme
+"Plugin 'gmarik/vundle'
+"Plugin 'godlygeek/tabular'
+"Plugin 'greplace.vim'
+"Plugin 'kien/ctrlp.vim'
+"Plugin 'mtth/scratch.vim'
+"Plugin 'plasticboy/vim-markdown'
+"Plugin 'scrooloose/nerdcommenter'
+"Plugin 'SirVer/ultisnips'
+"Plugin 'tomtom/tcomment_vim'
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-surround'
+"Plugin 'wting/rust.vim'
+
+call vundle#end()
+
+" load Cobalt2 theme
+colorscheme cobalt2
 
 "------------------
 " Syntax and indent

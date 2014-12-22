@@ -40,3 +40,15 @@ bindkey '^H' backward-delete-char
 
 # Use incremental search
 bindkey "^R" history-incremental-search-backward
+
+# Check for oh-my-zsh updates every n days
+export UPDATE_ZSH_DAYS=7
+
+# Set oh-my-zsh plugins
+plugins=(autojump bower brew git git-flow history node npm nvm vundle)
+
+# Add npm to the path
+export PATH=$PATH:/usr/local/share/npm/bin
+
+# Add node and global modules to the path
+export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules

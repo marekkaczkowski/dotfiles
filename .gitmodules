@@ -1,9 +1,16 @@
 [submodule "dotbot"]
 	path = .dotbot
 	url = https://github.com/anishathalye/dotbot
-[submodule "vim/bundle/vim-pathogen"]
-	path = vim/bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "vim/bundle/Vundle.vim"]
+	path = vim/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
+	ignore = untracked
+[submodule "vim/bundle/cobalt2-vim-theme"]
+	path = vim/bundle/cobalt2-vim-theme
+	url = https://github.com/GertjanReynaert/cobalt2-vim-theme.git
 	ignore = untracked
 [submodule "vim/bundle/vim-neatstatus"]
 	path = vim/bundle/vim-neatstatus

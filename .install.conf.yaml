@@ -2,27 +2,26 @@
 
 - link:
     ~/.axelrc: axelrc
+    ~/.csslintrc: csslintrc
     ~/.dotfiles: ''
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
+    ~/.jshintrc: jshintrc
+    ~/.lesskey: lesskey
     ~/.rtorrent.rc: rtorrent.rc
-    ~/.sbt/0.13/build.sbt:
-      create: true
-      path: sbt/0.13/build.sbt
-    ~/.sbt/0.13/plugins/plugins.sbt:
-      create: true
-      path: sbt/0.13/plugins/plugins.sbt
     ~/.screenrc: screenrc
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.zsh: zsh/
     ~/.zshrc: zshrc
+    ~/.oh-my-zsh: oh-my-zsh/
+    ~/.oh-my-zsh/themes/cobalt2.zsh-theme: cobalt2.zsh-theme
 
 - shell:
   -
     - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
     - Creating rtorrent directories
   -
-    - git update-submodules
-    - Installing/updating submodules
+    - git submodule update --recursive
+    - Updating submodules
