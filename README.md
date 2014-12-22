@@ -1,6 +1,8 @@
 Dotfiles
 ========
 
+This is modified version of [Anish dotfiles][dotfiles].
+
 After cloning this repo, run `install` to automatically set up the development
 environment. Note that the install script is idempotent - running it multiple
 times has no effect.
@@ -21,8 +23,9 @@ You can make local customizations for some programs by editing these files:
 License
 -------
 
-Copyright (c) 2014 Anish Athalye. Released under the MIT License. See
+Copyright (c) 2014 Marek Kaczkowski. Released under the MIT License. See
 [LICENSE.md][license] for details.
 
+[dotfiles]: https://github.com/anishathalye/dotfiles
 [dotbot]: https://github.com/anishathalye/dotbot
 [license]: LICENSE.md
