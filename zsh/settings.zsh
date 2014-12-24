@@ -8,7 +8,7 @@ ZSH_THEME="cobalt2"
 export UPDATE_ZSH_DAYS=7
 
 # Set oh-my-zsh plugins
-plugins=(autojump bower brew git git-flow history node npm nvm vundle)
+plugins=(autojump bower brew git git-flow history node npm nvm vundle zsh-syntax-highlighting)
 
 # Initialize completion
 autoload -Uz compinit && compinit
