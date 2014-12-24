@@ -8,23 +8,24 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
-"Plugin 'airblade/vim-gitgutter'
-"Plugin 'bling/vim-airline'
-"Plugin 'fsouza/go.vim'
-"Plugin 'gcmt/breeze.vim'
-Plugin 'gertjanreynaert/cobalt2-vim-theme' " pull Cobalt2 theme
-"Plugin 'gmarik/vundle'
-"Plugin 'godlygeek/tabular'
-"Plugin 'greplace.vim'
-"Plugin 'kien/ctrlp.vim'
-"Plugin 'mtth/scratch.vim'
-"Plugin 'plasticboy/vim-markdown'
-"Plugin 'scrooloose/nerdcommenter'
-"Plugin 'SirVer/ultisnips'
-"Plugin 'tomtom/tcomment_vim'
-"Plugin 'tpope/vim-fugitive'
-"Plugin 'tpope/vim-surround'
-"Plugin 'wting/rust.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'bling/vim-airline'
+Plugin 'fsouza/go.vim'
+Plugin 'gcmt/breeze.vim'
+Plugin 'gertjanreynaert/cobalt2-vim-theme'
+Plugin 'gmarik/vundle'
+Plugin 'godlygeek/tabular'
+Plugin 'greplace.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mtth/scratch.vim'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/syntastic'
+Plugin 'SirVer/ultisnips'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'wting/rust.vim'
 
 call vundle#end()
 
@@ -105,10 +106,10 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
 " Disable arrow keys
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
+"nnoremap <Left> :echoe "Use h"<CR>
+"nnoremap <Right> :echoe "Use l"<CR>
+"nnoremap <Up> :echoe "Use k"<CR>
+"nnoremap <Down> :echoe "Use j"<CR>
 
 "---------------------
 " Plugin configuration
@@ -124,6 +125,11 @@ nnoremap <Leader>u :GundoToggle<CR>
 nnoremap ; :CtrlPBuffer<CR>
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_show_hidden = 1
+
+" airline
+let g:airline_powerline_fonts = 1
+let g:bufferline_echo = 0
+let g:airline_theme = 'murmur'
 
 "---------------------
 " Local customizations
