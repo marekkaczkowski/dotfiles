@@ -129,3 +129,6 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "oh-my-custom/plugins/zsh-syntax-highlighting"]
+	path = oh-my-custom/plugins/zsh-syntax-highlighting
+	url = git://github.com/zsh-users/zsh-syntax-highlighting.git

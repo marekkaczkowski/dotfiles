@@ -22,6 +22,10 @@ setopt autocd
 # Enable interactive comments (# on the command line)
 setopt interactivecomments
 
+# Syntax highlighting
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+# Configure highlighting styles
+
 # Nicer history
 HISTSIZE=1048576
 HISTFILE="$HOME/.zsh_history"
