@@ -1,3 +1,15 @@
+# Path to oh-my-zsh configuration
+ZSH=.dotfiles/.oh-my-zsh
+
+# Set name of the theme to load
+ZSH_THEME="cobalt2"
+
+# Check for oh-my-zsh updates every n days
+export UPDATE_ZSH_DAYS=7
+
+# Set oh-my-zsh plugins
+plugins=(autojump bower brew git git-flow history node npm nvm vundle)
+
 # Initialize completion
 autoload -Uz compinit && compinit
 
@@ -24,31 +36,14 @@ KEYTIMEOUT=1 # corresponds to 10ms
 # Use vim as the editor
 export EDITOR=vim
 
-# Use vim style line editing in zsh
-bindkey -v
-# Movement
-bindkey -a 'gg' beginning-of-buffer-or-history
-bindkey -a 'G' end-of-buffer-or-history
-# Undo
-bindkey -a 'u' undo
-bindkey -a '^R' redo
-# Edit line
-bindkey -a '^V' edit-command-line
-# Backspace
-bindkey '^?' backward-delete-char
-bindkey '^H' backward-delete-char
+# Key bindings
+bindkey "\e[1;1~" beginning-of-line       # Home key
+bindkey "\e[1;4~" end-of-line             # End key
+bindkey "\e[1;5~" history-search-backward # Page Up
+bindkey "\e[1;6~" history-search-forward  # Page Down
+bindkey "\e[1;3~" delete-char             # Delete key
+bindkey "\e[1;5C" forward-word            # Ctrl+right
+bindkey "\e[1;5D" backward-word           # Ctrl+left
 
 # Use incremental search
 bindkey "^R" history-incremental-search-backward
-
-# Check for oh-my-zsh updates every n days
-export UPDATE_ZSH_DAYS=7
-
-# Set oh-my-zsh plugins
-plugins=(autojump bower brew git git-flow history node npm nvm vundle)
-
-# Add npm to the path
-export PATH=$PATH:/usr/local/share/npm/bin
-
-# Add node and global modules to the path
-export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules
