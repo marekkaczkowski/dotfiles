@@ -3,6 +3,9 @@ Dotfiles
 
 This is modified version of [Anish dotfiles][dotfiles].
 
+* ZSH -> oh-my-zsh
+* vim-pathogen -> Vundle.vim
+
 After cloning this repo, run `install` to automatically set up the development
 environment. Note that the install script is idempotent - running it multiple
 times has no effect.
