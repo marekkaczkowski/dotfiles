@@ -10,6 +10,8 @@ After cloning this repo, run `install` to automatically set up the development
 environment. Note that the install script is idempotent - running it multiple
 times has no effect.
 
+![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/screenshot.png)
+
 Dotfiles uses [Dotbot][dotbot] for installation.
 
 Making Local Customizations
@@ -22,8 +24,6 @@ You can make local customizations for some programs by editing these files:
 * `zsh` : `~/.zshrc_local_after` run after `.zshrc`
 * `git` : `~/.gitconfig_local`
 * `tmux` : `~/.tmux_local.conf`
-
-![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/screenshot.png)
 
 License
 -------
