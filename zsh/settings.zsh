@@ -1,6 +1,9 @@
 # Path to oh-my-zsh configuration
 ZSH=.dotfiles/.oh-my-zsh
 
+# Path to oh-my-zsh custom
+ZSH_CUSTOM=.dotfiles/oh-my-custom
+
 # Set name of the theme to load
 ZSH_THEME="cobalt2"
 
