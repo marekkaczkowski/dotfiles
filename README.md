@@ -23,6 +23,8 @@ You can make local customizations for some programs by editing these files:
 * `git` : `~/.gitconfig_local`
 * `tmux` : `~/.tmux_local.conf`
 
+![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/screenshot.png)
+
 License
 -------
 
