@@ -1,15 +1,15 @@
 # Use colors in coreutils utilities output
-alias ls='ls --color=auto'
+alias ls="ls --color=auto"
 export GREP_OPTIONS="--color"
 
 # ls aliases
-alias ll='ls -la'
-alias la='ls -A'
-alias l='ls'
+alias ll="ls -la"
+alias la="ls -A"
+alias l="ls"
 
 # Aliases to protect against overwriting
-alias cp='cp -i'
-alias mv='mv -i'
+alias cp="cp -i"
+alias mv="mv -i"
 
 # Update dotfiles
 function dfu() {
@@ -48,11 +48,10 @@ if [[ -n $STY ]]; then
 fi
 
 # Go up [n] directories
-function up()
-{
+function up() {
   local cdir="$(pwd)"
   if [[ "${1}" == "" ]]; then
-    cdir="$(dirname "${cdir}")"
+    cdir='$(dirname "${cdir}")'
   elif ! [[ "${1}" =~ ^[0-9]+$ ]]; then
     echo "Error: argument must be a number"
   elif ! [[ "${1}" -gt "0" ]]; then
@@ -79,7 +78,7 @@ function in() {
 
 # Check if a file is all ascii characters
 function ascii() {
-  if LC_ALL=C grep -q '[^[:print:][:space:]]' ${1}; then
+  if LC_ALL=C grep -q "[^[:print:][:space:]]" ${1}; then
     echo "File contains non-ascii characters"
   else
     echo "File contains only ascii characters"
@@ -87,27 +86,29 @@ function ascii() {
 }
 
 # Mirror a website
-alias mirrorsite='wget -m -k -K -E -e robots=off'
+alias mirrorsite="wget -m -k -K -E -e robots=off"
 
-# Toggle "My Book" firewire drive
-alias mountmybook='diskutil mount "My Book"'
-alias ejectmybook='diskutil eject "My Book"'
-
-# Toggle "Nitro" USB 3.0 Time Machine drive
-alias mountnitro='diskutil mount "Nitro"'
-alias ejectnitro='diskutil eject "Nitro"'
+# Toggle drive
+# Eg. toggledisk "My Book", toggledisk "Nitro"
+function toggledisk() {
+  if mount | grep "on /Volumes/${1}" > /dev/null; then
+    diskutil eject "${1}"
+  else
+    diskutil mount "${1}"
+  fi
+}
 
 # Copy pub key to the pasteboard
-alias copypubssh='pbcopy < ~/.ssh/id_rsa.pub'
+alias copypubssh="pbcopy < ~/.ssh/id_rsa.pub"
 
 # Remove all gems
 alias removeallgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
 
 # MAMP/php dir
-alias phpmamp='/Applications/MAMP/bin/php/php5.5.10/bin/php'
+alias phpmamp="/Applications/MAMP/bin/php/php5.5.10/bin/php"
 
 # Composer dir
-alias composer='/usr/local/bin/composer.phar'
+alias composer="/usr/local/bin/composer.phar"
 
 # Find folders in SVN repository
 function svnfinddir() {
@@ -120,4 +121,4 @@ function svnadd() {
 }
 
 # Recursively delete SVN directories
-alias svnkill='find . -type d -name .svn -print0 | xargs -0 rm -rf'
+alias svnkill="find . -type d -name .svn -print0 | xargs -0 rm -rf"
