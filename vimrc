@@ -17,7 +17,8 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'ervandew/supertab'
 Plugin 'fsouza/go.vim'
 Plugin 'gcmt/breeze.vim'
-Plugin 'gertjanreynaert/cobalt2-vim-theme'
+"Plugin 'gertjanreynaert/cobalt2-vim-theme'
+Plugin 'trusktr/seti.vim'
 Plugin 'gmarik/vundle'
 Plugin 'godlygeek/tabular'
 Plugin 'greplace.vim'
@@ -69,7 +70,7 @@ if &t_Co < 256
     set nocursorline " looks bad in this mode
 else
     set background=dark
-    colorscheme cobalt2
+    colorscheme seti
 endif
 
 filetype plugin indent on " enable file type detection
