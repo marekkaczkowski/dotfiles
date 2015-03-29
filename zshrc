@@ -25,3 +25,5 @@ source ~/.zsh/plugins_after.zsh
 if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
 fi
+export NVM_DIR="/Users/marekkaczkowski/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
