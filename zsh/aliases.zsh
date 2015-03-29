@@ -104,9 +104,6 @@ alias copypubssh="pbcopy < ~/.ssh/id_rsa.pub"
 # Remove all gems
 alias removeallgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
 
-# MAMP/php dir
-alias phpmamp="/Applications/MAMP/bin/php/php5.5.10/bin/php"
-
 # Composer dir
 alias composer="/usr/local/bin/composer.phar"
 
@@ -122,3 +119,8 @@ function svnadd() {
 
 # Recursively delete SVN directories
 alias svnkill="find . -type d -name .svn -print0 | xargs -0 rm -rf"
+
+# GIF maker
+function gif() {
+  convert -delay $1 *.jpg output.gif
+}
