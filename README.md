@@ -41,7 +41,8 @@ GIF maker how-to:
 * `brew install imagemagick`
 * put jpg files in eg. `~/Desktop/gif`
 * `cd ~/Desktop/gif`
-* `gif 10` this command will generate output.gif with 0.1s interval (for best results use value between 5-20)
+* `gif 10` this command will generate output.gif with 0.1s interval
+(for best results use value between 5-20)
 
 License
 -------
