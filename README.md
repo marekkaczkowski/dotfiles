@@ -6,17 +6,19 @@ This is modified version of [Anish dotfiles][dotfiles].
 
 Changes:
 
-* ~~ZSH~~ -> oh-my-zsh
-* ~~vim-pathogen~~ -> Vundle.vim
+* ~~ZSH~~ :arrow_right: oh-my-zsh
+* ~~vim-pathogen~~ :arrow_right: Vundle.vim
 
 ## Getting Started
 
 [Dotbot][dotbot] will handle entire installation process.
 
-`cd ~
+```bash
+cd ~
 git clone https://github.com/marekkaczkowski/dotfiles.git
 cd dotfiles
-install`
+install
+```
 
 Note that the `install` script is idempotent - running it multiple
 times has no effect.
