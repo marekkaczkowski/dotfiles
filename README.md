@@ -1,31 +1,46 @@
-Dotfiles
-========
+# Dotfiles [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/marekkaczkowski/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/screenshot.png)
 
 This is modified version of [Anish dotfiles][dotfiles].
 
-* ZSH -> oh-my-zsh
-* vim-pathogen -> Vundle.vim
+Changes:
 
-After cloning this repo, run `install` to automatically set up the development
-environment. Note that the install script is idempotent - running it multiple
+* ~~ZSH~~ -> oh-my-zsh
+* ~~vim-pathogen~~ -> Vundle.vim
+
+## Getting Started
+
+[Dotbot][dotbot] will handle entire installation process.
+
+`cd ~
+git clone https://github.com/marekkaczkowski/dotfiles.git
+cd dotfiles
+install`
+
+Note that the `install` script is idempotent - running it multiple
 times has no effect.
 
-Currently I'm using Seti color scheme:
+### Dependencies
+
+* Dotbot
+* oh-my-zsh
+* Vundle.vim
+
+### Theme
+
+Seti UI:
 
 * [Chrome JSONView scheme][jsonview]
 * [iTerm scheme][iterm]
 * [Sublime Text scheme][sublime]
-
-![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/screenshot.png)
+* [WebStorm scheme][webstorm]
 
 ![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/sublime.png)
 
-Dotfiles uses [Dotbot][dotbot] for installation.
+#### Making Local Customizations
 
-Making Local Customizations
----------------------------
-
-You can make local customizations for some programs by editing these files:
+You can make local customizations by editing these files:
 
 * `vim` : `~/.vimrc_local`
 * `zsh` : `~/.zshrc_local_before` run before `.zshrc`
@@ -33,10 +48,9 @@ You can make local customizations for some programs by editing these files:
 * `git` : `~/.gitconfig_local`
 * `tmux` : `~/.tmux_local.conf`
 
-For fun
----------------------------
+#### For fun
 
-GIF maker how-to:
+GIF maker:
 
 * `brew install imagemagick`
 * put jpg files in eg. `~/Desktop/gif`
@@ -44,15 +58,15 @@ GIF maker how-to:
 * `gif 10` this command will generate output.gif with 0.1s interval
 (for best results use value between 5-20)
 
-License
--------
+#### License
 
 Copyright (c) 2014 Marek Kaczkowski. Released under the MIT License. See
 [LICENSE.md][license] for details.
 
-[dotfiles]: https://github.com/anishathalye/dotfiles
-[jsonview]: https://gist.github.com/marekkaczkowski/9e051e63eed57bf9991c
-[iterm]: https://github.com/philduffy/seti-iterm
-[sublime]: https://packagecontrol.io/packages/Seti_UI
 [dotbot]: https://github.com/anishathalye/dotbot
+[dotfiles]: https://github.com/anishathalye/dotfiles
+[iterm]: https://github.com/philduffy/seti-iterm
+[jsonview]: https://gist.github.com/marekkaczkowski/9e051e63eed57bf9991c
 [license]: LICENSE.md
+[sublime]: https://packagecontrol.io/packages/Seti_UI
+[webstorm]: https://github.com/zchee/Seti_JetBrains
