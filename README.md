@@ -34,7 +34,7 @@ times has no effect.
 Seti UI:
 
 * [Chrome JSONView scheme][jsonview]
-* [iTerm scheme][iterm]
+* [iTerm scheme][iterm] + [patched Powerline fonts][powerline]
 * [Sublime Text scheme][sublime]
 * [WebStorm scheme][webstorm]
 
@@ -76,3 +76,4 @@ Crafted with :heart: by Onrel.
 [license]: LICENSE.md
 [sublime]: https://packagecontrol.io/packages/Seti_UI
 [webstorm]: https://github.com/zchee/Seti_JetBrains
+[powerline]: https://github.com/powerline/fonts
