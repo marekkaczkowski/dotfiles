@@ -50,20 +50,24 @@ You can make local customizations by editing these files:
 * `git` : `~/.gitconfig_local`
 * `tmux` : `~/.tmux_local.conf`
 
-#### For fun
+#### For Fun
 
 GIF maker:
 
-* `brew install imagemagick`
-* put jpg files in eg. `~/Desktop/gif`
-* `cd ~/Desktop/gif`
-* `gif 10` this command will generate output.gif with 0.1s interval
+```bash
+brew install imagemagick
+cd ~/Desktop/gif # Put jpg files in eg. `~/Desktop/gif`
+gif 10 # This will generate output.gif with 0.1s interval
+```
+
 (for best results use value between 5-20)
 
 #### License
 
-Copyright (c) 2014 Marek Kaczkowski. Released under the MIT License. See
+Copyright :copyright: 2014 Marek Kaczkowski. Released under the MIT License. See
 [LICENSE.md][license] for details.
+
+Crafted with :heart: by Onrel.
 
 [dotbot]: https://github.com/anishathalye/dotbot
 [dotfiles]: https://github.com/anishathalye/dotfiles
