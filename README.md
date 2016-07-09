@@ -1,4 +1,4 @@
-# Dotfiles [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/marekkaczkowski/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# Dotfiles [![GitHub Stats](https://img.shields.io/badge/github-stats-ff5500.svg)](http://githubstats.com/marekkaczkowski/Dotfiles)
 
 ![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/screenshot.png)
 
