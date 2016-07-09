@@ -122,5 +122,14 @@ alias svnkill="find . -type d -name .svn -print0 | xargs -0 rm -rf"
 
 # GIF maker
 function gif() {
-  convert -delay $1 *.jpg output.gif
+  convert -delay $1 -loop 0 *.jpg animated.gif
+}
+
+# Enable Node.js
+function loadnode() {
+  # Load stable Node.js with nvm
+  nvm use stable
+  # Add npm to the path
+  export PATH=$PATH:$(npm config --global get prefix)/bin
+  . <(npm completion)
 }

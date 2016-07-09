@@ -29,6 +29,33 @@ times has no effect.
 * oh-my-zsh
 * Vundle.vim
 
+### TODO:
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew install archey
+
+FOR  ACTION         SEND
+⌘←  "HEX CODE"      0x01
+⌘→  "HEX CODE"      0x05
+⌥←  "SEND ESC SEQ"  b
+⌥→  "SEND ESC SEQ"  f
+http://stackoverflow.com/questions/6205157/iterm2-how-to-get-jump-to-beginning-end-of-line-in-bash-shell
+
+nvm
+https://github.com/creationix/nvm
+
+nvm install stable
+
+tern for vim
+http://ahalbert.nfshost.com/Tech/Installing_Tern_for_Vim.html
+
+brew install autojump
+
+brew install python
+
+brew install git-flow
+
+
 ### Theme
 
 Seti UI:

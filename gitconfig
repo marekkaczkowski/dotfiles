@@ -90,15 +90,16 @@
 
 [core]
 	excludesfile = /Users/marekkaczkowski/.gitignore_global
+	autocrlf = input
 
 # Allow local customizations in the .gitconfig_local file
 [include]
 	path = ~/.gitconfig_local
 [difftool "sourcetree"]
-	cmd = /usr/local/bin/ksdiff -w \"$LOCAL\" \"$REMOTE\"
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
 	name = Marek Kaczkowski

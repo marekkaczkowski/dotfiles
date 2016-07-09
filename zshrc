@@ -23,7 +23,14 @@ source ~/.zsh/plugins_after.zsh
 
 # Allow local customizations in the ~/.zshrc_local_after file
 if [ -f ~/.zshrc_local_after ]; then
-    source ~/.zshrc_local_after
+  source ~/.zshrc_local_after
 fi
-export NVM_DIR="/Users/marekkaczkowski/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# RVM
+if which rbenv > /dev/null; then
+  eval "$(rbenv init -)";
+fi

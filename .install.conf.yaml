@@ -2,12 +2,18 @@
 
 - link:
     ~/.axelrc: axelrc
+    ~/.bowerrc: .bowerrc
     ~/.csslintrc: csslintrc
     ~/.dotfiles: ''
+    ~/.editorconfig: .editorconfig
+    ~/.eslintrc: .eslintrc
+    ~/.gitconfig: .gitconfig
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.jshintrc: jshintrc
     ~/.lesskey: lesskey
+    ~/.npmrc: .npmrc
+    ~/.oh-my-zsh: .oh-my-zsh/
     ~/.rtorrent.rc: rtorrent.rc
     ~/.screenrc: screenrc
     ~/.tmux.conf: tmux.conf
@@ -15,7 +21,6 @@
     ~/.vimrc: vimrc
     ~/.zsh: zsh/
     ~/.zshrc: zshrc
-    ~/.oh-my-zsh: .oh-my-zsh/
 
 - shell:
   -
