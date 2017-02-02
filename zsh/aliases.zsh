@@ -2,11 +2,6 @@
 alias ls="ls --color=auto"
 export GREP_OPTIONS="--color"
 
-# ls aliases
-alias ll="ls -la"
-alias la="ls -A"
-alias l="ls"
-
 # Aliases to protect against overwriting
 alias cp="cp -i"
 alias mv="mv -i"
@@ -88,7 +83,7 @@ function ascii() {
 # Mirror a website
 alias mirrorsite="wget -m -k -K -E -e robots=off"
 
-# Toggle drive
+# Toggle disk
 # Eg. toggledisk "My Book", toggledisk "Nitro"
 function toggledisk() {
   if mount | grep "on /Volumes/${1}" > /dev/null; then
@@ -125,11 +120,7 @@ function gif() {
   convert -delay $1 -loop 0 *.jpg animated.gif
 }
 
-# Enable Node.js
-function loadnode() {
-  # Load stable Node.js with nvm
-  nvm use stable
-  # Add npm to the path
-  export PATH=$PATH:$(npm config --global get prefix)/bin
-  . <(npm completion)
+# JSX formatter
+function jsxf() {
+  esformatter -c ~/.esformatter $1 > $1
 }
