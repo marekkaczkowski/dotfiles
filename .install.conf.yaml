@@ -1,26 +1,30 @@
 - clean: ['~']
 
 - link:
-    ~/.axelrc: axelrc
-    ~/.bowerrc: .bowerrc
-    ~/.csslintrc: csslintrc
+    ~/.axelrc: axelrc.conf
+    ~/.bowerrc: bowerrc.js
+    ~/.csslintrc: csslintrc.js
     ~/.dotfiles: ''
-    ~/.editorconfig: .editorconfig
-    ~/.eslintrc: .eslintrc
-    ~/.gitconfig: .gitconfig
-    ~/.gitconfig: gitconfig
-    ~/.gitignore_global: gitignore_global
-    ~/.jshintrc: jshintrc
-    ~/.lesskey: lesskey
-    ~/.npmrc: .npmrc
+    ~/.dir_colors: dircolors-solarized/dircolors.256dark
+    ~/.editorconfig: editorconfig.conf
+    ~/.esformatter: esformatter.json
+    ~/.eslintrc: eslintrc.js
+    ~/.gitconfig: gitconfig.conf
+    ~/.gitignore_global: gitignore_global.conf
+    ~/.jshintrc: jshintrc.js
+    ~/.lesskey: lesskey.conf
+    ~/.npmrc: npmrc.ini
+    ~/.nvmrc: nvmrc.conf
     ~/.oh-my-zsh: .oh-my-zsh/
-    ~/.rtorrent.rc: rtorrent.rc
-    ~/.screenrc: screenrc
-    ~/.tmux.conf: tmux.conf
+    ~/.rtorrent.rc: rtorrent.rc.conf
+    ~/.screenrc: screenrc.conf
+    ~/.stylelint: stylelint.js
+    ~/.tmux: tmux.conf
     ~/.vim: vim/
-    ~/.vimrc: vimrc
+    ~/.vimrc: vimrc.conf
+    ~/.yo-rc-global.json: yo-rc-global.json
     ~/.zsh: zsh/
-    ~/.zshrc: zshrc
+    ~/.zshrc: zshrc.conf
 
 - shell:
   -
