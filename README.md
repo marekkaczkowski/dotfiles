@@ -29,17 +29,6 @@ times has no effect.
 * oh-my-zsh
 * Vundle.vim
 
-### Theme
-
-Seti UI:
-
-* [Chrome JSONView scheme][jsonview]
-* [iTerm scheme][iterm] + [patched Powerline fonts][powerline]
-* [Sublime Text scheme][sublime]
-* [WebStorm scheme][webstorm]
-
-![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/sublime.png)
-
 #### License
 
 Copyright :copyright: 2014 Marek Kaczkowski. Released under the MIT License. See
