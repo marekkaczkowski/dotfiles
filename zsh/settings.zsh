@@ -11,7 +11,12 @@ ZSH_THEME="cobalt2"
 export UPDATE_ZSH_DAYS=7
 
 # Set oh-my-zsh plugins
-plugins=(autojump brew git git-flow history node npm nvm vundle zsh-syntax-highlighting)
+if [[ "$OSTYPE" = darwin* ]]
+then
+  plugins=(autojump brew git git-flow history node npm nvm vundle zsh-syntax-highlighting)
+else
+  plugins=(autojump git git-flow history node npm nvm vundle zsh-syntax-highlighting)
+fi
 
 # Initialize completion
 autoload -Uz compinit && compinit
