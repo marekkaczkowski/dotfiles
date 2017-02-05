@@ -1,5 +1,10 @@
 - clean: ['~']
 
+- shell:
+  -
+    - mkdir -p vim/autoload
+    - Creating Vim autoload dir
+
 - link:
     ~/.axelrc: config/axelrc.conf
     ~/.bowerrc: config/bowerrc.js
@@ -31,4 +36,4 @@
 - shell:
   -
     - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
-    - Creating rTorrent directories
+    - Creating rTorrent dirs
