@@ -11,50 +11,23 @@ Changes:
 
 ## Getting Started
 
-[Dotbot][dotbot] will handle entire installation process.
+[Dotbot][dotbot] will handle entire installation process. Just:
 
 ```bash
 cd ~
 git clone https://github.com/marekkaczkowski/dotfiles.git
 cd dotfiles
-install
+./install
 ```
 
 Note that the `install` script is idempotent - running it multiple
 times has no effect.
 
-### Dependencies
+### Submodules
 
 * Dotbot
 * oh-my-zsh
 * Vundle.vim
-
-### TODO:
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-brew install archey
-
-FOR  ACTION         SEND
-⌘←  "HEX CODE"      0x01
-⌘→  "HEX CODE"      0x05
-⌥←  "SEND ESC SEQ"  b
-⌥→  "SEND ESC SEQ"  f
-http://stackoverflow.com/questions/6205157/iterm2-how-to-get-jump-to-beginning-end-of-line-in-bash-shell
-
-nvm
-https://github.com/creationix/nvm
-
-nvm install stable
-
-tern for vim
-http://ahalbert.nfshost.com/Tech/Installing_Tern_for_Vim.html
-
-brew install autojump
-
-brew install python
-
-brew install git-flow
-
 
 ### Theme
 
@@ -66,28 +39,6 @@ Seti UI:
 * [WebStorm scheme][webstorm]
 
 ![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/sublime.png)
-
-#### Making Local Customizations
-
-You can make local customizations by editing these files:
-
-* `vim` : `~/.vimrc_local`
-* `zsh` : `~/.zshrc_local_before` run before `.zshrc`
-* `zsh` : `~/.zshrc_local_after` run after `.zshrc`
-* `git` : `~/.gitconfig_local`
-* `tmux` : `~/.tmux_local.conf`
-
-#### For Fun
-
-GIF maker:
-
-```bash
-brew install imagemagick
-cd ~/Desktop/gif # Put jpg files in eg. `~/Desktop/gif`
-gif 10 # This will generate output.gif with 0.1s interval
-```
-
-(for best results use value between 5-20)
 
 #### License
 

@@ -1,11 +1,12 @@
 - clean: ['~']
 
 - link:
+    oh-my-custom/themes/cobalt2.zsh-theme: iTerm2/Cobalt2-iterm/cobalt2.zsh-theme
     ~/.axelrc: axelrc.conf
     ~/.bowerrc: bowerrc.js
     ~/.csslintrc: csslintrc.js
+    ~/.dircolors: dircolors-solarized/dircolors.256dark
     ~/.dotfiles: ''
-    ~/.dir_colors: dircolors-solarized/dircolors.256dark
     ~/.editorconfig: editorconfig.conf
     ~/.esformatter: esformatter.json
     ~/.eslintrc: eslintrc.js
@@ -29,7 +30,7 @@
 - shell:
   -
     - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
-    - Creating rtorrent directories
+    - Creating rTorrent directories
   -
     - git submodule update --recursive
-    - Updating submodules
+    - Pull latest of all submodules

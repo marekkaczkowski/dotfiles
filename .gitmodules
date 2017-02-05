@@ -123,9 +123,6 @@
 [submodule "vim/bundle/Vundle.vim"]
 	path = vim/bundle/Vundle.vim
 	url = https://github.com/gmarik/Vundle.vim.git
-[submodule "vim/bundle/cobalt2-vim-theme"]
-	path = vim/bundle/cobalt2-vim-theme
-	url = https://github.com/GertjanReynaert/cobalt2-vim-theme.git
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
@@ -170,4 +167,13 @@
 	url = https://github.com/fsouza/go.vim
 [submodule "dircolors-solarized"]
 	path = dircolors-solarized
-	url = git@github.com:seebi/dircolors-solarized.git
+	url = https://github.com/seebi/dircolors-solarized
+[submodule "vim/bundle/vim-airline-themes"]
+	path = vim/bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "vim/bundle/cobalt2.vim"]
+	path = vim/bundle/cobalt2.vim
+	url = https://github.com/herrbischoff/cobalt2.vim
+[submodule "iTerm2/Cobalt2-iterm"]
+	path = iTerm2/Cobalt2-iterm
+	url = https://github.com/wesbos/Cobalt2-iterm

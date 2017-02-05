@@ -1,5 +1,3 @@
-# Use colors in coreutils utilities output
-alias ls="ls --color=auto"
 export GREP_OPTIONS="--color"
 
 # Aliases to protect against overwriting
@@ -124,3 +122,6 @@ function gif() {
 function jsxf() {
   esformatter -c ~/.esformatter $1 > $1
 }
+
+# Use colors in coreutils utilities output
+alias ls="ls --color=auto"

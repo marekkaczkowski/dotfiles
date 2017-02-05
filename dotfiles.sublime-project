@@ -1,46 +1,8 @@
 {
-  "folders":
-  [
-    {
-      "file_exclude_patterns":
-      [
-        "*.ico",
-        "*.min.js",
-        "*.pack.js",
-        "*.png",
-        "*.sublime-workspace",
-        ".buildignore",
-        ".classpath",
-        ".gitmodules",
-      ],
-      "folder_exclude_patterns":
-      [
-        "**/.dotbot",
-        "**/.externalToolBuilders",
-        "**/.github",
-        "**/.oh-my-zsh",
-        "**/dist",
-        "**/firebug",
-        "**/fontdev",
-        "**/fonts",
-        "**/images",
-        "**/logs",
-        "**/main/java",
-        "**/main/resources",
-        "**/node_modules",
-        "**/sbt",
-        "**/src/platform",
-        "**/target",
-        "**/test/java",
-        "**/test/resources",
-        "**/typings",
-        "**/vendor",
-        "**/vim",
-        "**/WEB-INF",
-      ],
-      "follow_symlinks": true,
-      "name": "🦄 Dotfiles",
-      "path": ".",
-    }
-  ]
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
 }
