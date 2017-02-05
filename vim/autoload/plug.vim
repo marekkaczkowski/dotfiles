@@ -1,0 +1,1 @@
+/Users/marekkaczkowski/dotfiles/vim-plug/plug.vim

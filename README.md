@@ -7,7 +7,7 @@ This is modified version of [Anish dotfiles][dotfiles].
 Changes:
 
 * ~~ZSH~~ :arrow_right: oh-my-zsh
-* ~~vim-pathogen~~ :arrow_right: Vundle.vim
+* ~~vim-pathogen~~ :arrow_right: ~~Vundle.vim~~ :arrow_right: vim-plug
 
 ## Getting Started
 
