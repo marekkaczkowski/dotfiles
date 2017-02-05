@@ -1,7 +1,7 @@
 - clean: ['~']
 
 - link:
-    oh-my-custom/themes/cobalt2.zsh-theme: iTerm2/Cobalt2-iterm/cobalt2.zsh-theme
+    ~/dotfiles/oh-my-custom/themes/cobalt2.zsh-theme: iTerm2/Cobalt2-iterm/cobalt2.zsh-theme
     ~/.axelrc: axelrc.conf
     ~/.bowerrc: bowerrc.js
     ~/.csslintrc: csslintrc.js
