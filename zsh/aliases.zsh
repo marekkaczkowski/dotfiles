@@ -121,9 +121,6 @@ function jsxf() {
   esformatter -c ~/.esformatter $1 > $1
 }
 
-# Use colors in coreutils utilities output
-alias ls="ls --color=auto"
-
 # GTFO with GIT submodule
 function gtfo() {
   git submodule deinit ${1}
