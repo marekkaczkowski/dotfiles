@@ -2,18 +2,18 @@
 
 ![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/screenshot.png)
 
-This is modified version of [Anish dotfiles][dotfiles].
+### Changes
 
-Changes:
+This is modified version of [Anish dotfiles][dotfiles].
 
 * ~~ZSH~~ :arrow_right: oh-my-zsh
 * ~~vim-pathogen~~ :arrow_right: ~~Vundle.vim~~ :arrow_right: vim-plug
 
-## Getting Started
+### Getting Started
 
-Symlink to [oh-my-zsh][oh-my-zsh] should work fine. In case of any problems just [install it in regular way][https://github.com/robbyrussell/oh-my-zsh#basic-installation].
+Symlink to [oh-my-zsh][oh-my-zsh] should work fine. In case of problem follow [`basic-installation`](https://github.com/robbyrussell/oh-my-zsh#basic-installation) instructions.
 
-[Dotbot][dotbot] will handle entire installation process.
+[Dotbot][dotbot] will handle entire installation process 🚀
 
 ```bash
 cd ~
@@ -25,7 +25,7 @@ cd dotfiles
 Note that the `install` script is idempotent - running it multiple
 times has no effect.
 
-#### License
+##### License
 
 Copyright :copyright: 2014 Marek Kaczkowski. Released under the MIT License. See
 [LICENSE.md][license] for details.
