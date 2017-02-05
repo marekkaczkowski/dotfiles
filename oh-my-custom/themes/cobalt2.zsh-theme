@@ -1,1 +1,0 @@
-/Users/marekkaczkowski/dotfiles/iTerm2/Cobalt2-iterm/cobalt2.zsh-theme

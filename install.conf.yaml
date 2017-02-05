@@ -1,0 +1,34 @@
+- clean: ['~']
+
+- link:
+    ~/.axelrc: config/axelrc.conf
+    ~/.bowerrc: config/bowerrc.js
+    ~/.csslintrc: config/csslintrc.js
+    ~/.dircolors: dircolors-solarized/dircolors.256dark
+    ~/.dotfiles: ''
+    ~/.editorconfig: config/editorconfig.conf
+    ~/.esformatter: config/esformatter.json
+    ~/.eslintrc: config/eslintrc.js
+    ~/.gitconfig: config/gitconfig.conf
+    ~/.gitignore_global: config/gitignore_global.conf
+    ~/.jshintrc: config/jshintrc.js
+    ~/.lesskey: config/lesskey.conf
+    ~/.npmrc: config/npmrc.ini
+    ~/.nvmrc: config/nvmrc.conf
+    ~/.oh-my-zsh/themes/cobalt2.zsh-theme: Cobalt2-iterm/cobalt2.zsh-theme
+    ~/.oh-my-zsh: oh-my-zsh/
+    ~/.rtorrent.rc: config/rtorrent.rc.conf
+    ~/.screenrc: config/screenrc.conf
+    ~/.stylelint: config/stylelint.js
+    ~/.tmux: config/tmux.conf
+    ~/.vim/autoload/plug.vim: vim-plug/plug.vim
+    ~/.vim: vim/
+    ~/.vimrc: config/vimrc.conf
+    ~/.yo-rc-global.json: config/yo-rc-global.json
+    ~/.zsh: zsh/
+    ~/.zshrc: config/zshrc.conf
+
+- shell:
+  -
+    - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
+    - Creating rTorrent directories
