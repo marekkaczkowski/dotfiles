@@ -21,7 +21,7 @@
     ~/.screenrc: config/screenrc.conf
     ~/.stylelint: config/stylelint.js
     ~/.tmux: config/tmux.conf
-    ~/.vim/autoload/plug.vim: vim-plug/plug.vim
+    ~/.vim/autoload/plug.vim: ./vim-plug/plug.vim
     ~/.vim: vim/
     ~/.vimrc: config/vimrc.conf
     ~/.yo-rc-global.json: config/yo-rc-global.json
