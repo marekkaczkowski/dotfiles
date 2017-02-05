@@ -1,8 +1,8 @@
 # Path to oh-my-zsh configuration
-ZSH=~/.dotfiles/.oh-my-zsh
+ZSH=~/.dotfiles/oh-my-zsh
 
 # Path to oh-my-zsh custom
-ZSH_CUSTOM=~/.dotfiles/oh-my-custom
+#ZSH_CUSTOM=~/.dotfiles/zsh-custom
 
 # Set name of the theme to load
 ZSH_THEME="cobalt2"
@@ -11,12 +11,7 @@ ZSH_THEME="cobalt2"
 export UPDATE_ZSH_DAYS=7
 
 # Set oh-my-zsh plugins
-if [[ "$OSTYPE" = darwin* ]]
-then
-  plugins=(autojump brew git git-flow history node npm nvm vundle zsh-syntax-highlighting)
-else
-  plugins=(autojump git git-flow history node npm nvm vundle zsh-syntax-highlighting)
-fi
+plugins=(autojump git git-flow history node npm nvm vundle zsh-syntax-highlighting)
 
 # Initialize completion
 autoload -Uz compinit && compinit
