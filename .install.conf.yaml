@@ -31,6 +31,3 @@
   -
     - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
     - Creating rTorrent directories
-#  -
-#    - git submodule update --recursive
-#    - Pull latest of all submodules
