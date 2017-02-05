@@ -1,5 +1,3 @@
-export GREP_OPTIONS="--color"
-
 # Aliases to protect against overwriting
 alias cp="cp -i"
 alias mv="mv -i"

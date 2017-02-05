@@ -1,9 +1,6 @@
 # Path to oh-my-zsh configuration
 ZSH=~/.dotfiles/oh-my-zsh
 
-# Path to oh-my-zsh custom
-#ZSH_CUSTOM=~/.dotfiles/zsh-custom
-
 # Set name of the theme to load
 ZSH_THEME="cobalt2"
 
@@ -54,3 +51,9 @@ bindkey "\e[1;5D" backward-word           # Ctrl+left
 
 # Use incremental search
 bindkey "^R" history-incremental-search-backward
+
+# Use color grep
+export GREP_OPTIONS="--color"
+
+# Set default user
+export DEFAULT_USER="marekkaczkowski"
