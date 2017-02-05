@@ -11,7 +11,9 @@ Changes:
 
 ## Getting Started
 
-[Dotbot][dotbot] will handle entire installation process. Just:
+Symlink to [oh-my-zsh][oh-my-zsh] should work fine. In case of any problems just [install it in regular way][https://github.com/robbyrussell/oh-my-zsh#basic-installation].
+
+[Dotbot][dotbot] will handle entire installation process.
 
 ```bash
 cd ~
@@ -22,12 +24,6 @@ cd dotfiles
 
 Note that the `install` script is idempotent - running it multiple
 times has no effect.
-
-### Submodules
-
-* Dotbot
-* oh-my-zsh
-* Vundle.vim
 
 #### License
 
@@ -41,6 +37,8 @@ Crafted with :heart: by Onrel.
 [iterm]: https://github.com/philduffy/seti-iterm
 [jsonview]: https://gist.github.com/marekkaczkowski/9e051e63eed57bf9991c
 [license]: LICENSE.md
-[sublime]: https://packagecontrol.io/packages/Seti_UI
-[webstorm]: https://github.com/zchee/Seti_JetBrains
+[oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
 [powerline]: https://github.com/powerline/fonts
+[sublime]: https://packagecontrol.io/packages/Seti_UI
+[vim-plug]: https://github.com/junegunn/vim-plug
+[webstorm]: https://github.com/zchee/Seti_JetBrains
