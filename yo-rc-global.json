@@ -1,9 +1,0 @@
-{
-  "generator-node:1.10.0": {
-    "promptValues": {
-      "authorName": "Marek Kaczkowski",
-      "authorEmail": "marek.kaczkowski@gmail.com",
-      "authorUrl": ""
-    }
-  }
-}
