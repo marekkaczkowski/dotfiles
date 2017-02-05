@@ -13,7 +13,7 @@ This is modified version of [Anish dotfiles][dotfiles].
 
 Symlink to [oh-my-zsh][oh-my-zsh] should work fine. In case of problem follow [`basic-installation`](https://github.com/robbyrussell/oh-my-zsh#basic-installation) instructions.
 
-[Dotbot][dotbot] will handle entire installation process 🚀
+[Dotbot][dotbot] will handle entire installation process :rocket:
 
 ```bash
 cd ~
