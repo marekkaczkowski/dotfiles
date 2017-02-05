@@ -1,4 +1,4 @@
-# Dotfiles [![GitHub Stats](https://img.shields.io/badge/github-stats-ff5500.svg)](http://githubstats.com/marekkaczkowski/Dotfiles)
+# Dotfiles [![GitHub Stats](https://img.shields.io/badge/github-stats-ff5500.svg)](http://githubstats.com/marekkaczkowski/Dotfiles#commits)
 
 ![Screenshot](https://raw.githubusercontent.com/marekkaczkowski/dotfiles/master/screenshot.png)
 
