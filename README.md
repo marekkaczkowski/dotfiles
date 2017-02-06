@@ -25,6 +25,8 @@ cd dotfiles
 Note that the `install` script is idempotent - running it multiple
 times has no effect.
 
+Basicly you only have to change `name` and `email` in `config/gitconfig.conf` and `yo-rc-global.json`. Does anyone still use [Yeoman](https://www.slant.co/topics/1485/~workflow-wrappers-for-front-end-development)? :ghost:
+
 ##### License
 
 Copyright :copyright: 2014 Marek Kaczkowski. Released under the MIT License. See
