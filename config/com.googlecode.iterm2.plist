@@ -1529,7 +1529,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/marekkaczkowski/dotfiles/iTerm2</string>
+	<string>~/dotfiles/iTerm2</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
