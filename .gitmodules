@@ -13,6 +13,7 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
+  ignore = untracked
 [submodule "Cobalt2-iterm"]
 	path = Cobalt2-iterm
 	url = https://github.com/wesbos/Cobalt2-iterm
