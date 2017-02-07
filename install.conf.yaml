@@ -24,7 +24,7 @@
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.rtorrent.rc: config/rtorrent.rc.conf
     ~/.screenrc: config/screenrc.conf
-    ~/.stCommitMsg: config/stCommitMsg.txt
+    ~/.stCommitMsg: config/stCommitMsg.conf
     ~/.stylelint: config/stylelint.js
     ~/.tmux: config/tmux.conf
     ~/.vim/autoload/plug.vim: ~/dotfiles/vim-plug/plug.vim
