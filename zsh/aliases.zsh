@@ -2,38 +2,21 @@
 alias cp="cp -i"
 alias mv="mv -i"
 
-# Update dotfiles
-function dfu() {
-  (
-    cd ~/.dotfiles && git pullff && ./install -q
-  )
-}
-
 # Use pip without requiring virtualenv
 function syspip() {
   PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
-
-# cd to git root directory
-alias cdgr='cd "$(git root)"'
 
 # Create a directory and cd into it
 function mcd() {
   mkdir "${1}" && cd "${1}"
 }
 
-# Jump to directory containing file
-function jump() {
-  cd "$(dirname ${1})"
-}
-
 # cd replacement for screen to track cwd (like tmux)
-function scr_cd()
-{
+function scr_cd() {
   builtin cd $1
   screen -X chdir $PWD
 }
-
 if [[ -n $STY ]]; then
   alias cd=scr_cd
 fi
@@ -60,24 +43,8 @@ function up() {
   cd "${cdir}"
 }
 
-# Execute a command in a specific directory
-function in() {
-  (
-    cd ${1} && shift && ${@}
-  )
-}
-
-# Check if a file is all ascii characters
-function ascii() {
-  if LC_ALL=C grep -q "[^[:print:][:space:]]" ${1}; then
-    echo "File contains non-ascii characters"
-  else
-    echo "File contains only ascii characters"
-  fi
-}
-
 # Mirror a website
-alias mirrorsite="wget -m -k -K -E -e robots=off"
+alias teleport="wget -m -k -K -E -e robots=off"
 
 # Toggle disk
 # Eg. toggledisk "My Book", toggledisk "Nitro"
@@ -88,9 +55,6 @@ function toggledisk() {
     diskutil mount "${1}"
   fi
 }
-
-# Copy pub key to the pasteboard
-alias copypubssh="pbcopy < ~/.ssh/id_rsa.pub"
 
 # Remove all gems
 alias removeallgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
@@ -114,11 +78,6 @@ alias svnkill="find . -type d -name .svn -print0 | xargs -0 rm -rf"
 # GIF maker
 function gif() {
   convert -delay $1 -loop 0 *.jpg animated.gif
-}
-
-# JSX formatter
-function jsxf() {
-  esformatter -c ~/.esformatter $1 > $1
 }
 
 # GTFO with GIT submodule
