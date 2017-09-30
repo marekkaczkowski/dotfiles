@@ -60,7 +60,7 @@ function toggledisk() {
 alias removeallgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
 
 # Composer dir
-alias composer="/usr/local/bin/composer.phar"
+alias composer="~/composer.phar"
 
 # Find folders in SVN repository
 function svnfinddir() {
@@ -88,3 +88,9 @@ function gtfo() {
   rm -rf .git/modules/${1}
   git submodule update --init --recursive
 }
+
+# Update screen on macOS
+# Screen version 4.02.01 (GNU05010a9) 28-Apr-14
+alias screen="/usr/local/bin/screen"
+
+alias top="top -F -R -o cpu"

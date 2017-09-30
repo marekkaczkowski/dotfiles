@@ -20,3 +20,9 @@
 [submodule "vim-plug"]
 	path = vim-plug
 	url = https://github.com/junegunn/vim-plug
+[submodule "screen-for-OSX"]
+	path = screen-for-OSX
+	url = https://github.com/FreedomBen/screen-for-OSX
+[submodule "screen-cpu-mem"]
+	path = screen-cpu-mem
+	url = https://github.com/thewtex/screen-cpu-mem
