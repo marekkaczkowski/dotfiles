@@ -26,3 +26,6 @@
 [submodule "screen-cpu-mem"]
 	path = screen-cpu-mem
 	url = https://github.com/thewtex/screen-cpu-mem
+[submodule "oh-my-zsh-powerline-theme"]
+	path = oh-my-zsh-powerline-theme
+	url = https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme.git

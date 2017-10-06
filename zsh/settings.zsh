@@ -2,7 +2,7 @@
 ZSH=~/.dotfiles/oh-my-zsh
 
 # Set name of the theme to load
-ZSH_THEME="cobalt2"
+ZSH_THEME="bureau"
 
 # Check for oh-my-zsh updates every n days
 export UPDATE_ZSH_DAYS=7

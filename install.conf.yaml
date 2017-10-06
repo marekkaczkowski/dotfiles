@@ -20,7 +20,7 @@
     ~/.lesskey: config/lesskey.conf
     ~/.npmrc: config/npmrc.ini
     ~/.nvmrc: config/nvmrc.conf
-    ~/.oh-my-zsh/themes/cobalt2.zsh-theme: Cobalt2-iterm/cobalt2.zsh-theme
+    ~/.oh-my-zsh/themes/powerline.zsh-theme: oh-my-zsh-powerline-theme/powerline.zsh-theme
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.rtorrent.rc: config/rtorrent.rc.conf
     ~/.screenrc: config/screenrc.conf
