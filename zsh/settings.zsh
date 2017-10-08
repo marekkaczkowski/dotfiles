@@ -2,7 +2,7 @@
 ZSH=~/.dotfiles/oh-my-zsh
 
 # Set name of the theme to load
-ZSH_THEME="bureau"
+ZSH_THEME="powerlevel9k"
 
 # Check for oh-my-zsh updates every n days
 export UPDATE_ZSH_DAYS=7
@@ -59,7 +59,7 @@ export GREP_OPTIONS="--color"
 export DEFAULT_USER="marekkaczkowski"
 
 # Set default app mode
-export NODE_ENV=production
+export NODE_ENV=development
 
 # Set locale
 export LANG=en_US.UTF-8
