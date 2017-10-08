@@ -8,7 +8,7 @@ ZSH_THEME="bureau"
 export UPDATE_ZSH_DAYS=7
 
 # Set oh-my-zsh plugins
-plugins=(autojump git git-flow history node npm nvm vundle zsh-syntax-highlighting)
+plugins=(autojump git git-flow history node npm zsh-syntax-highlighting)
 
 # Initialize completion
 autoload -Uz compinit && compinit
