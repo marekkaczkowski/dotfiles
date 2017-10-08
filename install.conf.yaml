@@ -14,17 +14,18 @@
     ~/.editorconfig: config/editorconfig.conf
     ~/.esformatter: config/esformatter.json
     ~/.eslintrc: config/eslintrc.js
+    ~/.git-commit-template: config/git-commit-template.conf
     ~/.gitconfig: config/gitconfig.conf
     ~/.gitignore_global: config/gitignore_global.conf
     ~/.jshintrc: config/jshintrc.js
     ~/.lesskey: config/lesskey.conf
     ~/.npmrc: config/npmrc.ini
     ~/.nvmrc: config/nvmrc.conf
-    ~/.oh-my-zsh/themes/powerlevel9k.zsh-theme: powerlevel9k/powerlevel9k.zsh-theme
     ~/.oh-my-zsh: oh-my-zsh/
+    ~/.oh-my-zsh/plugins/zsh-nvm: zsh-nvm
+    ~/.oh-my-zsh/themes/powerlevel9k.zsh-theme: powerlevel9k/powerlevel9k.zsh-theme
     ~/.rtorrent.rc: config/rtorrent.rc.conf
     ~/.screenrc: config/screenrc.conf
-    ~/.git-commit-template: config/git-commit-template.conf
     ~/.stylelint: config/stylelint.js
     ~/.tmux: config/tmux.conf
     ~/.vim/autoload/plug.vim: ~/dotfiles/vim-plug/plug.vim

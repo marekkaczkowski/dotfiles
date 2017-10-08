@@ -23,9 +23,6 @@
 [submodule "screen-for-OSX"]
 	path = screen-for-OSX
 	url = https://github.com/FreedomBen/screen-for-OSX
-[submodule "screen-cpu-mem"]
-	path = screen-cpu-mem
-	url = https://github.com/thewtex/screen-cpu-mem
 [submodule "powerlevel9k"]
 	path = powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k.git
