@@ -59,9 +59,6 @@ function toggledisk() {
 # Remove all gems
 alias removeallgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
 
-# Composer dir
-alias composer="~/composer.phar"
-
 # Find folders in SVN repository
 function svnfinddir() {
   svn list $1 | grep -i $2
