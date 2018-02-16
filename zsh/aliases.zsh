@@ -91,3 +91,6 @@ function gtfo() {
 alias screen="/usr/local/bin/screen"
 
 alias top="top -F -R -o cpu"
+
+# What's preventing Mac from sleeping
+alias pmsleep="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|PreventUserIdleDisplaySleep)'"
