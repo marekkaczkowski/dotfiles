@@ -94,3 +94,6 @@ alias top="top -F -R -o cpu"
 
 # What's preventing Mac from sleeping
 alias pmsleep="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|PreventUserIdleDisplaySleep)'"
+
+# NPM run dev shortcut
+alias dev="npm run dev"
