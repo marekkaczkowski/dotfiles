@@ -74,7 +74,7 @@ alias svnkill="find . -type d -name .svn -print0 | xargs -0 rm -rf"
 
 # GIF maker
 function gif() {
-  convert -delay $1 -loop 0 *.jpg animated.gif
+  convert -resize 320x320 -delay $1 -loop 0 *.jpg animated.gif
 }
 
 # GTFO with GIT submodule
@@ -94,6 +94,3 @@ alias top="top -F -R -o cpu"
 
 # What's preventing Mac from sleeping
 alias pmsleep="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|PreventUserIdleDisplaySleep)'"
-
-# NPM run dev shortcut
-alias dev="npm run dev"
