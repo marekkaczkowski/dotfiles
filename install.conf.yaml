@@ -6,6 +6,7 @@
     - Creating Vim autoload dir
 
 - link:
+    ~/.config/neofetch/config.conf: config/neofetch/config.conf
     ~/.axelrc: config/axelrc.conf
     ~/.bowerrc: config/bowerrc.js
     ~/.csslintrc: config/csslintrc.js
