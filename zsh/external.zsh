@@ -16,10 +16,13 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 ### Python ###
 # brew install python@2 issue: https://stackoverflow.com/questions/60298514/brew-reinstalling-python2#answer-60345962
-export PATH="/usr/local/opt/python/libexec/bin:/usr/local/bin:$PATH"
+#export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+# brew install python@3
+export PATH="/usr/local/bin:$PATH"
 # Virtualenvwrapper things
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/repos
+export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
+export WORKON_HOME="$HOME/.virtualenvs"
+export PROJECT_HOME="$HOME/repos"
 # PIP should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=false
 # Cache PIP-installed packages to avoid re-downloading
