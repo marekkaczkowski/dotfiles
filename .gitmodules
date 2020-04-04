@@ -26,3 +26,6 @@
 [submodule "zsh-nvm"]
   path = zsh-nvm
   url = https://github.com/lukechilds/zsh-nvm.git
+[submodule "Cobalt2-iterm"]
+  path = Cobalt2-iterm
+  url = https://github.com/wesbos/Cobalt2-iterm
