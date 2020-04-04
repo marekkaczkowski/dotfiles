@@ -18,5 +18,5 @@
 	path = powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k
 [submodule "zsh-syntax-highlighting"]
-  path = zsh-syntax-highlighting
-  url = https://github.com/zsh-users/zsh-syntax-highlighting
+	path = zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
