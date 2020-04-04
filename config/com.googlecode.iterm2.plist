@@ -659,7 +659,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>436 301 807 396 0 0 1680 1027 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>444 245 799 448 0 0 1680 1027 </string>
+	<string>438 245 799 448 0 0 1680 1027 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>418 568 606 456 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -667,7 +667,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>470 277 918 485 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1680 0 1680 1027 1680 0 1680 1027 </string>
+	<string>45 0 1635 1027 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>229 95 865 438 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -840,35 +840,43 @@
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
-			<key>Background Image Location</key>
-			<string>/Users/marekkaczkowski/dotfiles/config/gits.jpg</string>
 			<key>Background Image Mode</key>
 			<integer>2</integer>
 			<key>Badge Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>0.5</real>
+				<real>0.49019607843137253</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.90196078431372551</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.89803921568627454</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.63137254901960782</real>
 			</dict>
+			<key>Badge Font</key>
+			<string>8-bitLimitBRK</string>
+			<key>Badge Max Height</key>
+			<real>0.25</real>
+			<key>Badge Max Width</key>
+			<real>0.5</real>
+			<key>Badge Right Margin</key>
+			<real>30</real>
 			<key>Badge Text</key>
 			<string></string>
+			<key>Badge Top Margin</key>
+			<real>0.0</real>
 			<key>Blend</key>
-			<real>0.27500000000000000</real>
+			<real>0.050000000000000003</real>
 			<key>Blink Allowed</key>
 			<false/>
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
-			<true/>
+			<false/>
 			<key>Blur Radius</key>
-			<real>4</real>
+			<real>0.10000000000000001</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -949,11 +957,13 @@
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Icon</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
 			<string></string>
+			<key>Initial Use Transparency</key>
+			<false/>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -1286,7 +1296,7 @@
 			<key>Normal Font</key>
 			<string>NotoMonoForPowerline 12</string>
 			<key>Only The Default BG Color Uses Transparency</key>
-			<true/>
+			<false/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1641,7 +1651,7 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.10beta3</string>
+		<string>3.3.7</string>
 		<string>3.3.8beta3</string>
 		<string>3.3.0beta11</string>
 		<string>3.3.0beta13</string>
@@ -1652,7 +1662,14 @@
 		<string>3.3.9beta1</string>
 		<string>3.3.10beta1</string>
 		<string>3.3.10beta2</string>
-		<string>3.3.7</string>
+		<string>3.3.10beta3</string>
+	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>8-bit Limit BRK</string>
+		<string>04b03</string>
+		<string>Pixel Gothic Font</string>
+		<string>Rockwell</string>
 	</array>
 	<key>NoSyncConfirmBeta</key>
 	<true/>
@@ -1661,7 +1678,7 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{378, 771}</string>
+		<string>{416, 717}</string>
 	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
@@ -1674,7 +1691,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>507897634.39518899</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>202</integer>
+	<integer>211</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2504,7 +2521,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-03-31T07:24:00Z</date>
+	<date>2020-04-01T07:29:16Z</date>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -2566,7 +2583,7 @@
 	<key>iTerm Version</key>
 	<string>3.3.10beta3</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
-	<integer>6</integer>
+	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<false/>
 </dict>

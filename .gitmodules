@@ -14,9 +14,6 @@
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
   ignore = untracked
-[submodule "Cobalt2-iterm"]
-	path = Cobalt2-iterm
-	url = https://github.com/wesbos/Cobalt2-iterm
 [submodule "vim-plug"]
 	path = vim-plug
 	url = https://github.com/junegunn/vim-plug
@@ -26,3 +23,6 @@
 [submodule "powerlevel9k"]
 	path = powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k.git
+[submodule "zsh-nvm"]
+  path = zsh-nvm
+  url = https://github.com/lukechilds/zsh-nvm.git

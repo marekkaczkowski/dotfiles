@@ -3,12 +3,13 @@ ZSH=~/.dotfiles/oh-my-zsh
 
 # Set name of the theme to load
 ZSH_THEME="powerlevel9k"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs nvm rbenv virtualenv)
 
 # Check for oh-my-zsh updates every n days
 export UPDATE_ZSH_DAYS=7
 
 # Set oh-my-zsh plugins
-plugins=(autojump git git-flow history node npm virtualenvwrapper yarn zsh-syntax-highlighting)
+plugins=(autojump git git-flow history node npm nvm rbenv sublime virtualenv virtualenvwrapper yarn zsh-syntax-highlighting)
 
 # Initialize completion
 autoload -Uz compinit && compinit

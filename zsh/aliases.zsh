@@ -88,9 +88,12 @@ function gtfo() {
 
 # Update screen on macOS
 # Screen version 4.02.01 (GNU05010a9) 28-Apr-14
-alias screen="/usr/local/bin/screen"
+# alias screen="/usr/local/bin/screen"
 
 alias top="top -F -R -o cpu"
 
 # What's preventing Mac from sleeping
 alias pmsleep="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|PreventUserIdleDisplaySleep)'"
+
+# Multiline echo path with py
+alias epa="python2 -c \"import os; print os.environ['PATH'].replace(':', '\n')\""
