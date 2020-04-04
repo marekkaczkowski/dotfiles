@@ -33,6 +33,7 @@
     ~/.vimrc: config/vimrc.conf
     ~/.yo-rc-global.json: config/yo-rc-global.json
     ~/.zsh: zsh/
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh-syntax-highlighting
     ~/.zshrc: config/zshrc.conf
 
 - shell:
