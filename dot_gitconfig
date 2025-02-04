@@ -1,0 +1,182 @@
+[core]
+  pager = delta
+  # avoid problems when changing a case of a filename
+  ignorecase = false
+  excludesfile = ~/.config/git/ignore
+  untrackedcache = true
+  fsmonitor = true
+
+[init]
+  templatedir = ~/.config/git/templates
+  defaultBranch = main
+
+[gpg]
+  program = gpg
+
+[user]
+  name = Marek Kaczkowski
+  email = marek.kaczkowski@gmail.com
+  signingkey = 1F5EFF52F238B326
+
+[commit]
+  gpgsign = false
+
+[tag]
+  gpgSign = false
+
+[log]
+  date = iso
+
+[status]
+    # Show untracked files, directories and files in untracked directories
+  showUntrackedFiles = all
+  submoduleSummary = true
+
+[interactive]
+  diffFilter = delta --color-only
+
+[pull]
+  # Keep local commits on top of the tree
+  rebase = true
+
+[merge]
+  conflictstyle = zdiff3
+
+[rebase]
+  # Stash and pop uncommitted changes on rebase
+  autostash = true
+  autosquash = true
+  updateRefs = true
+
+# Maintain a 1-1 mapping to upstream refs and tags
+[fetch]
+  prune = true
+  prunetags = true
+  fsckobjects = true
+
+[transfer]
+  fsckobjects = true
+
+[receive]
+  fsckobjects = true
+
+[branch]
+  sort = committerdate
+
+[diff]
+  colorMoved = default
+  algorithm = histogram
+
+[help]
+  # Run corrected command after 1 second
+  autocorrect = 20
+
+[delta]
+  navigate = true  # use n and N to move between diff sections
+  light = false
+  side-by-side = true
+
+[alias]
+  # List all the git aliases
+  aliases = !sh -c 'git config --get-regexp '^alias\\.' | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / | sort'
+
+  # Project clone to ~/Repositories
+  pclone = '!git -C $HOME/Repositories clone'
+
+  # Replace latest commit
+  amend = commit --amend
+
+  # Add files to last commit
+  append = commit --amend --no-edit
+
+  # List remote-tracking and local branches
+  branches = branch --all -v
+
+  # Checkout or create new branch
+  ck = "!f() { git checkout $1 2>/dev/null || git checkout -b $1; }; f"
+
+  co = checkout
+
+  # Remove untracked and ignored files interactively
+  cleanup = clean -xfdi
+
+  # Commit no verify (disable hooks)
+  cnv = commit -n -m
+
+  # Count the number of files changed in the current branch compared to main
+  count-files = !git diff --name-only main... | wc -l
+
+  # Count number of commits ahead of main
+  count-commits = !git rev-list --count main..`git branch --show-current`
+
+  dd = !git --no-pager diff
+
+  # Clean up all current changes
+  discard = "!f() { git restore ${1:-.}; }; f"
+
+  # Filter the commit logs messages with the provided string
+  filter = "!f() { git logs --grep=$1; }; f"
+
+  last = log -1 HEAD --stat
+
+  lg = log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit
+
+  lp = log --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset - %C(magenta)%cn%Creset' --abbrev-commit --date=relative
+
+  main = !git checkout main && git pull
+
+  develop = !git checkout develop && git pull
+
+  # Clean up merged branches to a given branch ("main" is default)
+  purge = "!f() { git branch -r --merged | grep ${1:-main} | cut -d "/" -f 2 | xargs -r git branch -d; }; f"
+
+  pwl = push --force-with-lease
+
+  # Remove a remote branch
+  rmrb = push origin -d
+
+  # Grep the given pattern in tracked files with line numbers and context
+  search = grep -n -C 1
+
+  # Short status
+  s = status -sb
+
+  # Show numstat between main and HEAD
+  stat = diff --shortstat main HEAD
+
+  # Stash the working directory, the index and the untracked files
+  stash-all = stash save --include-untracked
+
+  # Pull rebase remote main
+  sync = "!f() { git pull origin ${1:-main} --rebase; }; f"
+
+  # List tags and sort them by version number
+  tags = tag -l --sort=-version:refname
+
+  # Show a graph of the commit logs
+  tree = log --graph --full-history --pretty=format:'%C(red)%h%C(reset) -%C(yellow)%d%C(reset) %s %C(green)(%cr) %C(bold blue)[%an]%C(reset)'
+
+  # Revert the last commit and put its changes in the index
+  undolast = reset --soft HEAD^
+
+  unstage = reset HEAD --
+
+  # Push and set upstream origin for branch
+  up = !git push -u origin `git branch --show-current`
+
+  ut = "!f() { git push origin --tags ${1:-}; }; f"
+
+  wt = worktree
+
+  wtls = worktree list
+
+  wtrm = worktree remove
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+# reuse recorded resolution
+[rerere]
+	enabled = true
