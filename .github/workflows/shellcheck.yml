@@ -1,4 +1,4 @@
-name: shell
+name: shellcheck
 on:
   workflow_dispatch:
     
