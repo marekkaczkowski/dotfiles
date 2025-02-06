@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 4,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#99A79DFF",
+        "font" : "Menlo",
+        "color" : "#606B70FF"
+      },
+      "shortcut" : {
+        "size" : 20,
+        "colorSelected" : "#83C092FF",
+        "font" : "Menlo",
+        "color" : "#606B70FF"
+      },
+      "backgroundSelected" : "#2C3337FF",
+      "text" : {
+        "size" : 19,
+        "colorSelected" : "#99A79DFF",
+        "font" : "Menlo",
+        "color" : "#99A79DFF"
+      },
+      "iconPaddingHorizontal" : 7,
+      "roundness" : 0,
+      "paddingVertical" : 8,
+      "iconSize" : 36
+    },
+    "search" : {
+      "backgroundSelected" : "#333C36FF",
+      "paddingHorizontal" : 8,
+      "spacing" : 0,
+      "text" : {
+        "size" : 30,
+        "colorSelected" : "#83C092FF",
+        "font" : "Helvetica Neue",
+        "color" : "#83C092FF"
+      },
+      "background" : "#00000000",
+      "roundness" : 0,
+      "paddingVertical" : 11
+    },
+    "window" : {
+      "color" : "#20272BFF",
+      "paddingHorizontal" : 9,
+      "width" : 560,
+      "borderPadding" : 0,
+      "borderColor" : "#374044FF",
+      "blur" : 0,
+      "roundness" : -16,
+      "paddingVertical" : 0
+    },
+    "credit" : "Marek Kaczkowski",
+    "separator" : {
+      "color" : "#00000000",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#374044FF",
+      "thickness" : 0
+    },
+    "name" : "𝐄𝐯𝐞𝐫𝐟𝐨𝐫𝐞𝐬𝐭"
+  }
+}
