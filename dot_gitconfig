@@ -1,6 +1,6 @@
 [core]
   pager = delta
-  # avoid problems when changing a case of a filename
+  # Avoid problems when changing a case of a filename
   ignorecase = false
   excludesfile = ~/.config/git/ignore
   untrackedcache = true
@@ -8,7 +8,7 @@
 
 [init]
   templatedir = ~/.config/git/templates
-  defaultBranch = main
+  defaultbranch = main
 
 [gpg]
   program = gpg
@@ -22,18 +22,18 @@
   gpgsign = false
 
 [tag]
-  gpgSign = false
+  gpgsign = false
 
 [log]
   date = iso
 
 [status]
     # Show untracked files, directories and files in untracked directories
-  showUntrackedFiles = all
-  submoduleSummary = true
+  showuntrackedfiles = all
+  submodulesummary = true
 
 [interactive]
-  diffFilter = delta --color-only
+  difffilter = delta --color-only
 
 [pull]
   # Keep local commits on top of the tree
@@ -46,7 +46,7 @@
   # Stash and pop uncommitted changes on rebase
   autostash = true
   autosquash = true
-  updateRefs = true
+  updaterefs = true
 
 # Maintain a 1-1 mapping to upstream refs and tags
 [fetch]
@@ -64,7 +64,7 @@
   sort = committerdate
 
 [diff]
-  colorMoved = default
+  colormoved = default
   algorithm = histogram
 
 [help]
@@ -179,4 +179,4 @@
 
 # reuse recorded resolution
 [rerere]
-	enabled = true
+  enabled = true

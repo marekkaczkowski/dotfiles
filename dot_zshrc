@@ -297,4 +297,5 @@ bindkey '^o' zsh-ctrl-o
 compdef g='git'
 
 # Usless bells and whistles
-fortune | cowsay -f skeleton | fastfetch --file-raw - | lolcat
+# fortune | cowsay -f skeleton | fastfetch --file-raw - | lolcat
+fortune | cowsay -f skeleton | lolcat
