@@ -16,7 +16,7 @@
                                      '8
 ```
 
-[![shellcheck](https://github.com/marekkaczkowski/.dotfiles/actions/workflows/shell.yml/badge.svg)](https://github.com/marekkaczkowski/.dotfiles/actions/workflows/shell.yml)
+[![shellcheck](https://github.com/marekkaczkowski/dotfiles/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/marekkaczkowski/dotfiles/actions/workflows/shellcheck.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 My dotfiles to set up a dev environment on my MacOS machine (should also work with any Nix).
